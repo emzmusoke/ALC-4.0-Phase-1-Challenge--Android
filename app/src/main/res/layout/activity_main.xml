@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To ALC: 4.0"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="88dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="about alc"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:background="#F7AE34"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:textAllCaps="true"
+            android:onClick="about"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="my profile"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:background="#F7AE34"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="true"
+            android:onClick="profile"/>
+</LinearLayout>
